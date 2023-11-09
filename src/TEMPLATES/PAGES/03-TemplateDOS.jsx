@@ -16,7 +16,7 @@ export const TemplateDOS = () => {
             <h1>TEMPLATE # 2</h1>
            <ContainerSectionFIVE> </ContainerSectionFIVE>
 
-           <ContainerSectionTWO> </ContainerSectionTWO>
+           {/* <ContainerSectionTWO> </ContainerSectionTWO> */}
             
             {/* <ChildrenWrapperImage>
 

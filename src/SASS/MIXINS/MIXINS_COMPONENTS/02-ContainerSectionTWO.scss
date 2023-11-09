@@ -73,29 +73,18 @@
 
 @mixin styles_desktop () {
 
-  padding: 10px;
-  height: 30vh;
+  width: 100%;
+  height: 100vh;
 
-  display: flex;
-  justify-content: space-around;
+  
 
-  p{
-    width: 50%;
-   
+  
 
-    border: 1px solid blue;
-  }
+  background-image: url("../../../ASSETS/backgrounds/fractal-6186585_1920.jpg"); /* Ajusta la ruta de tu imagen */
+  background-repeat: no-repeat;
+  background-size: cover; /* O ajusta según tus preferencias */
 
-  figure{
-    width: 50%;
 
-    text-align: center;
-
-    border: 1px solid blue;
-    img{
-
-    }
-  }
 
   border: 1px solid rgb(233, 31, 4);
   background-color: #f59f77;
@@ -104,7 +93,7 @@
 
 
 
-.containerSectionTwo{
+.image{
 
  
   @include media-query($media_phone){

@@ -34,6 +34,7 @@ export const Navbar = () => {
                 
                 <NavLink to={"/"}>TEMPLATE ONE</NavLink>
                 <NavLink to={"/two"} className={({isActive}) => `${isActive ? 'active' : ''}`}>TEMPLATE TWO</NavLink>
+                <NavLink to={"/three"} className={({isActive}) => `${isActive ? 'active' : ''}`}>TEMPLATE THREE</NavLink>
 
                 {/* <NavLink to={"/three"} className={({isActive}) => `${isActive ? 'active' : '' }`}>PageThree</NavLink> */}                
                 

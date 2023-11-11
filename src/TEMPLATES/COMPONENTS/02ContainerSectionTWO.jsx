@@ -9,8 +9,8 @@ export const ContainerSectionTWO = ( { children } ) => {
 
 
     return(
-        <div className="image">
+        <section className="containerSectionTWO">
             { children }
-        </div>
+        </section>
     )
 }

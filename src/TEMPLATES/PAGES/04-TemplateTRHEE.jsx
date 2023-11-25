@@ -9,6 +9,8 @@ import {Layout} from '../COMPONENTS';
 
 
 
+
+
 export const TemplateTRHEE = () => {
     return (
             
@@ -30,7 +32,7 @@ export const TemplateTRHEE = () => {
               </section>
 
               <figure className='image_portada' >
-                  <img alt='iamge_portada'></img>
+                  <img src= "" alt='iamge_portada'></img>
               </figure>
 
             </ContainerSectionTWO>

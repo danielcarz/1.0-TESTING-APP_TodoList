@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ContainerSectionTWO } from '../COMPONENTS/';
+import { MainContainerComponent } from '../COMPONENTS/';
 
 //layout
 import {Layout} from '../COMPONENTS';
@@ -8,34 +8,83 @@ import {Layout} from '../COMPONENTS';
 
 
 
-
-
-
 export const TemplateTRHEE = () => {
+
+  
     return (
             
           <Layout>
+
+            <div className='wrapperContainer'>
+
+              <MainContainerComponent> 
+
+                <section className='introduction'>
+
+                  <figure>
+                     <img alt='image introduction'></img>
+                  </figure>
+
+                  <section className='introduction_paragraph'>
+                    <p>lorem impsun introduction</p>
+                  </section>
+
+                </section> 
+              
+              
+              </MainContainerComponent>
+
+              <MainContainerComponent>  
+                <section className='knowledge'>
+
+
+                    <section className='technologies'>
+                      <p>lorem impsun technologies</p>
+                    </section>
+
+                    <figure className='technologies_images'>
+                      <img alt='image introduction'></img>
+                      <img alt='image introduction'></img>
+                      <img alt='image introduction'></img>
+                      <img alt='image introduction'></img>
+                    </figure>
+
+
+                </section> 
+
+              </MainContainerComponent>
+
+              <MainContainerComponent>  
+                <section className='projects'>
+                  <h3>PROJECTS</h3>
+
+                  <figure className='projects_imagesWrapper'>
+
+                    <a href="" className='projects_image' > <img alt='image projects'></img>  </a>
+                    <a href="" className='projects_image' > <img alt='image projects'></img>  </a>
+                    <a href="" className='projects_image' > <img alt='image projects'></img>  </a>
+                    <a href="" className='projects_image' > <img alt='image projects'></img>  </a>
+                    <a href="" className='projects_image' > <img alt='image projects'></img>  </a>
+                   
+                    
+                  </figure>
+                </section>
+              
+              </MainContainerComponent>
+
+              <MainContainerComponent>  
+
+                <footer>
+                    <h3>footer</h3>
+                </footer>
+              </MainContainerComponent>
+
+
+            </div>
           
-            <ContainerSectionTWO>
+            
 
-              <section className='personal_info'>
-
-                  <h2>TemplateTRHEE tittle</h2>
-
-                  <p> El portafolio de Onyedika se basa en elementos animados sencillos y un 
-                      encabezado único para atraer a clientes potenciales. En la sección de 
-                      detalles del proyecto, añade botones interactivos y coloridos para animar 
-                      a los visitantes a obtener más información.
-                  
-                  </p>
-
-              </section>
-
-              <figure className='image_portada' >
-                  <img src= "" alt='iamge_portada'></img>
-              </figure>
-
-            </ContainerSectionTWO>
+           
 
           </Layout>
         

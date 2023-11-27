@@ -209,6 +209,8 @@
 
 .navbar{
 
+  background-color: gray;
+
 
   @include media-query($media_phone){
     @include styles_phone();

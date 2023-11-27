@@ -15,5 +15,7 @@ export * from './05-ContainerSectionFIVE';
 
 export * from './04.1-WrapperArticleTwo';
 
+export * from './06-MainContainerComponent';
+
 
 

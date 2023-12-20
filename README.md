@@ -1,14 +1,12 @@
 TEMPLATES:
 
-ESTRUCTURE OF THE TEMPLATE APP
+ESTRUCTURE OF THE pPORTAFOLIO APP
 
-FOLDERS:
-    TEMPLATES:
-        01- ASSETS
+GIT HISTORY:
 
-        02- COMPONENTS
+BRANCHES:
 
-        03- PAGES
-            3.01- TemplateUNO.jsx
-
-            3.02- 
+2.0 Expertise: branch releated to all differents styles, info , components to realted about my
+ expertise
+    
+    2.1-info,styles: adding info and appying styles to the expertise component

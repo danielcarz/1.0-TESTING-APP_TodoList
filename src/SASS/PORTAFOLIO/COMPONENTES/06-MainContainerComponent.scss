@@ -168,15 +168,45 @@
 
       height: auto;
 
+      padding: 20px;
+
+      color: #DEE2E6;
       
 
-      background-color: rgb(194, 19, 156);
+      background-color: #212529;
 
       .technologies_wrapper{
+
+        height: auto;
 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
+
+        border: 2px solid #CED4DA;
+
+        .technologies_info{
+
+          padding: 20px;
+
+          border-left: 1px solid #CED4DA;
+          
+          .technologies_logo{
+
+            border: 1px solid black;
+
+            img{
+
+              width: 45px;
+              height: 45px;
+            }
+
+            display: flex;
+          }
+
+        }
+
+        
 
       }
 

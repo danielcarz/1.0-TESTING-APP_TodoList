@@ -8,6 +8,11 @@ import {Layout} from '../COMPONENTS';
 //styles
 import '../../SASS/PORTAFOLIO/COMPONENTES/06-MainContainerComponent.scss';
 
+//IMAGES
+import  reactLogo from '../../../public/assets/reactNative.png';
+import  sassLogo from '../../../public/assets/sass.png';
+import computerLogo from '../../../public/assets/software.png';
+ 
 
 
 
@@ -47,29 +52,61 @@ export const TemplateTRHEE = () => {
               <MainContainerComponent>  
                 <section className='knowledge'>
 
-                <h2>My expertise</h2>
+                    <h2>Experiencia</h2>
 
                     <section className='technologies_wrapper'>
                       
-                      
-                      <figure className='technologies_info'>
-                        <img alt='react_logo' ></img>
-                        <h2>React Native</h2>
-                      </figure>
+                      <section className='technologies_info'>
 
-                      <figure>
-                        <img alt='vite_logo' ></img>
-                        <h2>Vite</h2>
-                      </figure>
+                          <figure className='technologies_logo'>
+                            <img src={ reactLogo } alt='react_logo' ></img>
+                            <h2>React Native</h2>
+                          </figure>
 
-                      <figure>
-                        <img alt='sass_logo' ></img>
-                        <h2>sass</h2>
-                      </figure>
+                          <p>
+                              Experiencia en la creación eficiente de componentes y el desarrollo
+                              de aplicaciones web y móviles. Habilidades incluyen la gestión
+                              avanzada del estado y la optimización de rendimiento, con experiencia
+                              en Progressive Web Apps (PWAs).
+                          </p>
 
+                      </section>
 
+                      <section className='technologies_info'>
+                          <figure className='technologies_logo'>
+                            <img src= { sassLogo } alt='react_logo' ></img>
+                            <h2>Sass</h2>
+                          </figure>
 
-                      
+                          <p> 
+                              Experiencia creación de estilos eficientes para aplicaciones 
+                              web. Especializado en el uso de variables, mixins y arquitecturas 
+                              escalables. Dedicado a perfeccionar interfaces estilizadas y mejorar 
+                              el rendimiento en el procesamiento de estilos.
+                          </p>
+
+                      </section>
+
+                      <section className='technologies_info'>
+
+                          <figure className='technologies_logo'>
+                            <img src={ computerLogo } alt='react_logo' ></img>
+                            <h2>JavaScript, Apis, optimización</h2>
+                          </figure>
+
+                          <p>
+                            Experiencia en JavaScript y conocimientos de ES6, manipulación del DOM, 
+                            gestión de eventos, principios de POO para modularidad en proyectos y Git /hub 
+                            para control de versiones. Optimizo aplicaciones con AJAX y APIs para un 
+                            rendimiento eficiente, utilizando Chrome DevTools y principios de POO para 
+                            modularidad en proyectos.
+                          </p>
+
+                      </section>
+                        
+
+                  
+              
                     </section>
 
                    

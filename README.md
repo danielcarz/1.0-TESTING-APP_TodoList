@@ -10,3 +10,4 @@ BRANCHES:
  expertise
     
     2.1-info,styles: adding info and appying styles to the expertise component
+    2.2-Responsive-Desing: appliyng a basic responsive design to my expertise component for desktop and tablets

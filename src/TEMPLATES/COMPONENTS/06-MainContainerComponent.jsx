@@ -1,7 +1,7 @@
 import React from "react";
 
 //styles
-import '../../SASS/MIXINS/MIXINS_COMPONENTS/Index.scss';
+//import '../../SASS/PORTAFOLIO/COMPONENTES/06-MainContainerComponent.scss';
 
 
 export const MainContainerComponent = ( { children } ) => {

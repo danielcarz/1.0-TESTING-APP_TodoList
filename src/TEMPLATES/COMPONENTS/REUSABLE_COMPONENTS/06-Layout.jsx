@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React, { children } from "react";
 
 //styles
 import '../../../SASS/MIXINS/REUSABLE_MIXINS/1-Index.scss';

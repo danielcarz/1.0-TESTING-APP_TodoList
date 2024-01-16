@@ -1,47 +1,34 @@
 //VARIABLES (it musb be in the first position)
-@use '../Variables' as *;
+@use './MIXINS/Variables.scss' as *;
 
 //MEDIA
-@import '../MEDIA_QUERIES/MediaQueries.scss';
+@import './MIXINS//MEDIA_QUERIES/MediaQueries.scss';
 
 
 
 @mixin styles_phone () {
-  border: 1px solid blue;
-
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid yellow;
   
 }
 
 @mixin styles_tablets () {
   width: 100%;
-  padding: 10px;
-
-  display: flex;
-  justify-content: space-around;
+  height: auto;
   
   border: 1px solid blue;
 }
 
 @mixin styles_desktop () {
   width: 100%;
-  padding: 10px;
+  
 
-  display: flex;
-  justify-content: space-around;
-
-  border: 1px solid blue;
+  border: 1px solid red;
 }
 
 
 
 
-.CardsContainer{
+.layoutContainer{
   
 
   @include media-query($media_phone){

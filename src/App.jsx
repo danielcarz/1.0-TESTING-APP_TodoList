@@ -1,16 +1,16 @@
 
-import './SASS/index.scss';
 
-//Routes Handler
-import { RoutesHandler } from "./ROUTES/RoutesHandler";
+//styles
+import './SASS/Layout.scss';
 
+import { Layout } from './Components/00-Layout';
 
 function App() {
  
 
   return (
    
-      <RoutesHandler></RoutesHandler>
+      <Layout className = "layoutContainer" > this layout component </Layout>
   
   )
 }
